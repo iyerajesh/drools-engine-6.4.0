@@ -1,0 +1,13 @@
+com\unum\microservices\drools\service\WorkdayService.class
+com\unum\microservices\drools\web\RulesAPIController.class
+com\unum\microservices\persistence\model\Order.class
+com\unum\microservices\drools\config\DroolsAutoConfiguration$1.class
+com\unum\microservices\persistence\model\Adjusters.class
+com\unum\microservices\persistence\model\Claim.class
+com\unum\microservices\drools\config\DroolsAutoConfiguration.class
+com\unum\microservices\persistence\model\Address.class
+com\unum\microservices\drools\service\RulesService.class
+com\unum\microservices\drools\service\XmlToJsonTransformer.class
+com\unum\microservices\persistence\model\Managers.class
+com\unum\microservices\drools\config\DroolsEngine.class
+com\unum\microservices\drools\config\JacksonConfiguration.class

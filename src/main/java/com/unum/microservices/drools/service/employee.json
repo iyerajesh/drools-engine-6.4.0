@@ -1,0 +1,239 @@
+{
+	"wd:Employee": {
+		"wd:As_Of_Date": "2016-11-30-08:00",
+		"wd:version": "v27.1",
+		"xmlns:wd": "urn:com.workday/bsvc",
+		"wd:Employee_Data": {
+			"wd:Integration_ID_Data": {
+				"wd:ID": {
+					"wd:System_ID": "WD-WID",
+					"content": "05221656ffbc105826286a21f8d8eb79"
+				}
+			},
+			"wd:Employee_ID": 64491,
+			"wd:Worker_Position_Data": {
+				"wd:Job_Profile_Summary_Data": {
+					"wd:Work_Shift_Required": 0,
+					"wd:Management_Level_Reference": {
+						"wd:ID": {
+							"wd:type": "Management_Level_ID",
+							"content": "Management"
+						}
+					},
+					"wd:Job_Family_Reference": {
+						"wd:ID": {
+							"wd:type": "Job_Family_ID",
+							"content": "All_Other"
+						}
+					},
+					"wd:Critical_Job": 0,
+					"wd:Job_Profile_Name": "Manager, Claims",
+					"wd:Job_Profile_Reference": {
+						"wd:ID": {
+							"wd:type": "Job_Profile_ID",
+							"content": "CC568-USA"
+						}
+					},
+					"wd:Job_Exempt": 1
+				},
+				"wd:Position_Reference": {
+					"wd:Integration_ID_Reference": {
+						"wd:ID": {
+							"wd:System_ID": "WD-I",
+							"content": "4547$50666"
+						},
+						"wd:Descriptor": "00284580 Manager, Claims - Kareem Mitchell"
+					}
+				},
+				"wd:Pay_Rate_Type_Reference": {
+					"wd:Pay_Type_Name": "Salary"
+				},
+				"wd:Full_Time_Equivalent_Percentage": 100,
+				"wd:Organization_Content_Data": {
+					"wd:Integration_ID_Data": {
+						"wd:ID": {
+							"wd:System_ID": "WD-WID",
+							"content": "f00d03191e4910248e55453f64081264"
+						}
+					},
+					"wd:Organization_ID": "CH_DOM_NON_INSUR",
+					"wd:Organization_Name": "Domestic Non-Insurance",
+					"wd:Organization_Type_Reference": {
+						"wd:Organization_Type_Name": "Company Hierarchy"
+					},
+					"wd:Organization_Subtype_Reference": {
+						"wd:Organization_Subtype_Name": "Company Hierarchy"
+					}
+				}],
+				"wd:Effective_Date": "2016-02-07-08:00",
+				"wd:Employee_Type_Reference": {
+					"wd:Employee_Type_Description": "Regular"
+				},
+				"wd:Business_Site_Content_Data": {
+					"wd:Integration_ID_Data": {
+						"wd:ID": {
+							"wd:System_ID": "WD-WID",
+							"content": "c4ed1a5d88a41050fd278954cc986a9d"
+						}
+					},
+					"wd:Time_Profile_Reference": {
+						"wd:Time_Profile_Description": "Standard Hours - 40"
+					},
+					"wd:Location_Name": "Colonial Life Home Office",
+					"wd:Location_Type_Reference": {
+						"wd:Location_Type_Description": "Home Office"
+					}
+				},
+				"wd:Position_Time_Type_Reference": {
+					"wd:Time_Type_Description": "Full time"
+				},
+				"wd:Scheduled_Weekly_Hours": 40,
+				"wd:Supervisor_Reference": {
+					"wd:Employee_Reference": {
+						"wd:Integration_ID_Reference": {
+							"wd:ID": {
+								"wd:System_ID": "WD-I",
+								"content": "247$37750"
+							},
+							"wd:Descriptor": "Joseph Roof"
+						}
+					}
+				},
+				"wd:Position_Title": "Manager, Claims",
+				"wd:Default_Weekly_Hours": 40,
+				"wd:Position_ID": "00284580",
+				"wd:Payroll_Processing_Data": {
+					"wd:Frequency_Reference": {
+						"wd:Frequency_Name": "Bi-weekly"
+					}
+				},
+				"wd:Job_Exempt": 1
+			},
+			"wd:User_ID": "DWB07",
+			"wd:Personal_Info_Data": {
+				"wd:Business_Title": "Manager, Claims",
+				"wd:Person_Data": {
+					"wd:Demographic_Data": {
+						"wd:Hispanic_or_Latino": 0,
+						"wd:Ethnicity_Reference": {
+							"wd:Ethnicity_Name": "Black or African American"
+						}
+					},
+					"wd:Personal_Preferences_Data": {
+						"wd:Receive_Email_Notifications": 0
+					},
+					"wd:Biographic_Data": {
+						"wd:Gender_Reference": {
+							"wd:Gender_Description": "Male"
+						},
+						"wd:Date_Of_Birth": "1984-04-13-08:00",
+						"wd:Uses_Tobacco": 0
+					},
+					"wd:Custom_ID_Data": {
+						"wd:Custom_ID": "SC221",
+						"wd:Custom_ID_Type_Reference": {
+							"wd:Custom_ID_Type_Name": "Mail Stop"
+						}
+					},
+					"wd:Name_Data": {
+						"wd:First_Name": "Kareem",
+						"wd:Last_Modified": "2016-01-19T00:00:00.000-08:00",
+						"wd:Last_Name": {
+							"wd:Type": "Primary",
+							"content": "Mitchell"
+						},
+						"wd:Country_Reference": {
+							"wd:Country_ISO_Code": "USA"
+						},
+						"wd:Is_Legal": 0,
+						"wd:Is_Preferred": 1,
+						"wd:Effective_Date": "2016-01-19-08:00"
+					}],
+					"wd:Contact_Data": {
+						"wd:Internet_Email_Address_Data": {
+							"wd:Usage_Data": {
+								"wd:Public": 0,
+								"wd:Type_Reference": {
+									"wd:Primary": 1,
+									"content": "Home"
+								}
+							},
+							"wd:Email_Address": "kareem.mitchell@coloniallife.com"
+						}],
+						"wd:Address_Data": {
+							"wd:Usage_Data": {
+								"wd:Use_For_Reference": "Mailing",
+								"wd:Public": 0,
+								"wd:Type_Reference": {
+									"wd:Primary": 0,
+									"content": "Home"
+								}
+							},
+							"wd:Address_Line": {
+								"wd:Type": "ADDRESS_LINE_1",
+								"content": "155 chesterbrook lane",
+								"wd:Descriptor": "Address Line 1"
+							},
+							"wd:Last_Modified": "2014-09-29T19:01:28.124-07:00",
+							"wd:Municipality": "lexington",
+							"wd:Country_Reference": {
+								"wd:Country_ISO_Code": "USA"
+							},
+							"wd:Region": "South Carolina",
+							"wd:Postal_Code": 29072,
+							"wd:Effective_Date": "2010-07-13-07:00"
+						}],
+						"wd:Phone_Number_Data": {
+							"wd:Country_ISO_Code": "USA",
+							"wd:International_Phone_Code": 1,
+							"wd:Usage_Data": {
+								"wd:Public": 0,
+								"wd:Type_Reference": {
+									"wd:Primary": 1,
+									"content": "Home"
+								}
+							},
+							"wd:Phone_Number": "422-3133",
+							"wd:Phone_Device_Type_Reference": {
+								"wd:Phone_Device_Type_Description": "Mobile"
+							},
+							"wd:Area_Code": 347
+						}
+					},
+					"wd:Government_ID_Data": {
+						"wd:Government_ID_Type_Reference": {
+							"wd:Government_ID_Type_Name": "U.S. SSN (Social Security Number)"
+						},
+						"wd:Government_ID": "052707601",
+						"wd:Country_Reference": {
+							"wd:Country_ISO_Code": "USA"
+						}
+					}
+				}
+			},
+			"wd:Worker_Status_Data": {
+				"wd:Retirement_Eligibility_Date": "2010-07-04-07:00",
+				"wd:Active": 1,
+				"wd:Continuous_Service_Date": "2007-10-01-07:00",
+				"wd:Retired": 0,
+				"wd:Benefits_Service_Date": "2007-10-01-07:00",
+				"wd:Seniority_Date": "2007-10-01-07:00",
+				"wd:Months_Continuous_Prior_Employment": 0,
+				"wd:Hire_Date": "2007-10-01-07:00",
+				"wd:Time_Off_Service_Date": "2007-10-01-07:00",
+				"wd:Days_Unemployed": 0,
+				"wd:Original_Hire_Date": "2007-10-01-07:00",
+				"wd:Company_Service_Date": "2007-10-01-07:00"
+			}
+		},
+		"wd:Employee_Reference": {
+			"wd:Integration_ID_Reference": {
+				"wd:ID": {
+					"wd:System_ID": "WD-I",
+					"content": "247$37519"
+				},
+				"wd:Descriptor": "Kareem Mitchell"
+			}
+		}
+	}
+}

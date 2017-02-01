@@ -1,0 +1,31 @@
+package com.unum.businessrules
+import com.unum.microservices.persistence.model.Adjusters
+
+rule "Assign Wellness Claims to Adjuster"
+  salience 1
+    when
+    
+   		adjusters : Adjusters(medCode == "WELL")
+    then
+        System.out.println("ASSIGNED: due to no objections."); 
+        adjusters.assignWellnessClaimsToAdjuster();
+end
+rule "Assign Cancer Claims to Adjuster"
+  salience 1
+    when
+    
+   		adjusters : Adjusters(medCode == "CAN", casePriority < 1)
+   		
+    then
+        System.out.println("ASSIGNED: due to no objections."); 
+        adjusters.assignCancerClaimsToAdjuster();
+end
+rule "Assign Cancer Claims to Adjuster with Experience"
+  salience 1
+    when
+    
+   		adjusters : Adjusters(medCode == "CAN", casePriority >= 1, $adjusterExperience:10)
+    then
+        System.out.println("ASSIGNED: due to no objections."); 
+        adjusters.assignCancerClaimsToAdjusterWithExperience();
+end

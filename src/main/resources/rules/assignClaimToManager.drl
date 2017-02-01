@@ -1,0 +1,12 @@
+package com.unum.businessrules
+
+import com.unum.microservices.persistence.model.Managers
+
+rule "Assign Claims to Manager"
+  salience 1
+    when
+        managers : Managers(assignClaim == true)
+    then
+        System.out.println("ASSIGNED: due to no objections."); 
+        managers.assignManagerToClaim();
+end
